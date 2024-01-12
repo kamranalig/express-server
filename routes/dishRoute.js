@@ -52,3 +52,4 @@ dishRouter
   .delete((req, res, next) => {
     res.end("Deleting dish" + req.params.dishId);
   });
+module.exports = dishRouter;
